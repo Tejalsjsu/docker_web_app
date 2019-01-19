@@ -15,8 +15,9 @@ Creating Docker image:
     
 4. Run docker image:
     $ docker run -p 3000:8080 -d docker_web_app
+5. Start the mysql compose by using the cmd, "docker-compose up"
     
-5. Access using http://localhost:3000
+6. Access using http://localhost:3000
    Note: If you are using Docker toolkit on window 10 home you will need to access the webpage through docker-machine ip command. It is        generally 192.168.99.100:3000
    
 End Points:
