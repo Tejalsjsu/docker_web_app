@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: "3.1"
+services:
+  mysql:
+      image: mysql
+      container_name: sql-demo
+      ports:
+        - 6604:3306
+      environment:
+        MYSQL_ROOT_PASSWORD: "mypassword"
+      volumes:
+        - /mysql-datadir:/var/lib/mysql
